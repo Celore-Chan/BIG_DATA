@@ -1,11 +1,11 @@
 ```markdown
-# 大数据管理与分析基本算法
+大数据管理与分析基本算法
 
 本项目包含两个大数据基本算法：**PageRank** 网页排名算法 和 **InvertedIndex** 倒排索引构建，均基于 Hadoop MapReduce 实现。
-
+```
 ## 算法列表
 
-```
+
 | 算法 | 描述 | 核心算法 |
 |------|------|----------|
 | PageRank | 网页重要性排序 | 迭代计算 + 阻尼系数 |
@@ -18,9 +18,9 @@
 | Hadoop | 3.x |
 | Java | 8 / 11 |
 | Maven | 3.x (可选) |
-```
-## 项目结构
 
+## 项目结构
+```
 bigdata-lab/
 ├── pagerank/
 │   ├── pagerank.java          # PageRank 主程序
@@ -30,7 +30,6 @@ bigdata-lab/
 │   └── InvertedIndex.java     # 倒排索引主程序
 └── README.md                  # 本文件
 ```
-
 ## 快速开始
 
 ### 1. 编译打包
